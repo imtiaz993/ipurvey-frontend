@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html {
+ min-width: 360px;
+ scroll-behavior: smooth !important;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .airplane {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(550px, -300px);
+  }
+} */
+#neg_54 {
+ left: -54px !important;
+}
+.cus_wht_btn {
+ background-color: white;
+ outline: none;
+ border: 1px solid #2e58a6;
+ color: #2e58a6;
+ padding: 8px;
+ text-align: center;
+ font-size: 0.9rem;
+ border-radius: 4px;
+}
+.freeprivacypolicy-com---palette-light .cc-nb-okagree {
+ color: #fff;
+ background-color: rgb(128, 30, 0) !important;
+}
+.freeprivacypolicy-com---palette-light .cc-nb-reject {
+ color: #fff;
+ background-color: rgb(0, 13, 128) !important;
+}
+.rdt > input {
+ border: none;
+ outline: none;
+ padding: 9px;
+ width: 100%;
+ padding-left: 36px;
+ color: #2e58a6;
+ /* opacity: 0.8; */
+ background-color: #e6ecf8;
+}
+.rdt > input::placeholder {
+ color: #2e58a6;
+ font-size: 0.9rem;
+}
+.rdt > img {
+ position: absolute;
+ top: 13px;
+ left: 10px;
+}
+.rdtPicker {
+ width: 100%;
+}
+.rdtPicker td.rdtActive,
+.rdtPicker td.rdtActive:hover {
+ background-color: #2e58a6 !important;
+}
+.rdtPicker td.rdtToday:before {
+ border-bottom: 7px solid #2e58a6 !important;
+}
+.rdtPicker td.rdtActive.rdtToday:before {
+ border-bottom-color: #fff !important;
+}
+input.form-control:focus {
+ color: #212529 !important;
+ outline: none !important;
+ border: none !important;
+ background-color: #f0f4fc !important;
+ border-color: none !important;
+ box-shadow: inset 0 1px 2px rgba(83, 83, 83, 0.39), 0 -1px 0px #fff,
+  0 1px 0 #fff !important;
+ border-radius: 5px !important;
+}
+.my-custom-classname,
+input,
+select,
+textarea {
+ box-shadow: inset 0 1px 2px rgba(83, 83, 83, 0.39), 0 -1px 0px #fff,
+  0 1px 0 #fff;
+ border-radius: 5px !important;
+}
+.my-custom-classname {
+ color: #212529 !important;
+}
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+ color: #7095db85 !important;
+ font-weight: 300 !important;
+}
+* {
+ box-sizing: border-box;
+}
+body {
+ font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}
+
+a:hover {
+ color: inherit;
+}
+
+/* cookie  */
+
+/* cokkiew css  */
+
+.cokkie_main_div {
+ position: fixed;
+ bottom: 0px;
+ z-index: 99999999;
+ width: 100%;
+ filter: opacity(0.9);
+ padding: 20px 10px;
+ background-color: #748aa6;
+ backdrop-filter: blur(10px);
+ background: #748aa6 0% 0% no-repeat padding-box;
+ -webkit-backdrop-filter: blur(10px);
+ opacity: 1;
+}
+
+.cross_cookie {
+ position: absolute;
+ right: 20px;
+ top: 10px;
+ object-fit: contain;
+ width: 15px;
+ color: white;
+ font-size: 1.5em;
+}
+.cross_cookie:hover {
+ cursor: pointer;
+}
+.cokkie_div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+}
+.cokkie_para {
+ width: 82%;
+ margin-left: 20px;
+ font-size: 0.9rem;
+ color: white;
+ font: normal normal 300 16px/25px Poppins;
+}
+.cokkie_para > p {
+ margin-bottom: 0px;
+ font-size: 0.8rem;
+}
+.cokkie_btn_div {
+ margin-top: 10px;
+}
+.m-l {
+ margin-left: 10px;
+}
+.cokkie_btn_div > button {
+ /* margin-left: 10px; */
+ border: none;
+ outline: none;
+ padding: 8px 20px;
+ border-radius: 5px;
+ color: #2e58a6;
+}
+.cus_btn2 {
+ padding: 9px 5px !important;
+ width: 120px;
+ background: #ffffff 0% 0% no-repeat padding-box;
+ box-shadow: 0px 3px 6px #00000029;
+}
+.cokkie_white {
+ border-radius: 3px;
+ background: transparent;
+ padding: 5px 10px !important;
+}
+.cokkie_grn {
+ border-radius: 3px;
+}
+.the-ques {
+ margin-top: 10px;
+ height: 250px;
+}
+.the-ques-div {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.popup-content {
+ border-radius: 10px;
+}
+.the-ft-div > .close,
+.the-ques-div > .close {
+ cursor: pointer;
+ position: absolute;
+ display: block;
+ padding: 2px 5px;
+ line-height: 20px;
+ right: 5px;
+ top: 8px;
+ font-size: 24px;
+ color: red;
+}
+.the-title-modal {
+ font-size: 1.4rem;
+ color: #2e58a6;
+ font-weight: 600;
+}
+.modal-btns-q {
+ width: 380px;
+ margin-top: 20px;
+ margin-bottom: 30px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.the-ft-div {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ border-radius: 10px;
+ padding: 20px;
+ background: white;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.the-ft-para {
+ padding: 2px 30px;
+ text-align: center;
+}
+.the-ft {
+ margin-top: 34px;
+ width: 250px;
+}
+.the-ft-btn {
+ margin-bottom: 16px;
+}
+#red-btn {
+ background-color: #c90000;
+ color: white;
+}
+.loader {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -moz-transform: translateX(-50%) translateY(-50%);
+ -webkit-transform: translateX(-50%) translateY(-50%);
+ transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 370px) {
+ .rdt > input {
+  font-size: 0.8rem;
+ }
+ .rdt > img {
+  top: 10px;
+ }
+ .rdt > input::placeholder {
+  color: #2e58a6;
+  font-size: 0.7rem;
+ }
+}
+@media screen and (min-width: 1550px) {
+ .cokkie_para > p {
+  font-size: 1.1rem;
+ }
+}
+
+@media screen and (max-width: 1144px) {
+ .cokkie_para {
+  /* width: 600px; */
+  font-size: 0.8rem;
+ }
+}
+
+@media screen and (max-width: 1045px) {
+ .cokkie_para {
+  /* width: 450px; */
+  font-size: 0.8rem;
+ }
+}
+
+@media screen and (max-width: 904px) {
+ .cokkie_main_div {
+  /* border-radius: 20px 20px 0 0; */
+  text-align: center;
+  padding: 20px 0px;
+ }
+ .cokkie_div {
+  flex-direction: column;
+  /* align-items: flex-start; */
+ }
+ .cokkie_para {
+  width: 90% !important;
+ }
+ .cokkie_btn_div {
+  margin-top: 1rem;
+ }
+}
+
+@media screen and (max-width: 800px) {
+ .cokkie_para {
+  width: 360px;
+  font-size: 0.8rem;
+ }
+ .cokkie_img {
+  width: 100px;
+ }
+}
+
+@media screen and (max-width: 670px) {
+ .cokkie_white {
+  margin-top: 10px;
+ }
+ .cokkie_para {
+  margin-left: 10px;
+  font-size: 0.7rem;
+ }
+ .cokkie_img {
+  width: 70px;
+ }
+}
+.rc-time-picker-panel-input {
+ user-select: none;
+}

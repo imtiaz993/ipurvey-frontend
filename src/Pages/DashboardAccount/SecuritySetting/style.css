@@ -1,0 +1,63 @@
+.ss_container{
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.ss_inp input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.dlt_acc_md{
+    margin-top: 80px;
+}
+.dlt_acc_md>p{
+    font-size: .9rem;
+    color: #2E58A6;
+    margin-top: 15px;
+}
+.ss_btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.dlt_red{
+    background-color: #F72E2E;
+    color: white;
+}
+.ss_sd>h5{
+    display: none;
+}
+
+@media(max-width:600px){
+    .accInfo_rigth_md{
+        margin-left: 0px;
+    }
+    .ss_container{
+        width: 96%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .ss_sd>h5{
+        display: block;
+        margin: 15px;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .dlt_acc_md>h6{
+        font-weight: bold;
+
+    }
+    .dlt_acc_md{
+        margin-top: 60px;
+    }
+    .ss_sd>h6{
+        display: none;
+    }
+}
+@media(max-width:350px){
+    .ss_container{
+        width: 100%;
+    }
+}

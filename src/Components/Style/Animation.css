@@ -1,0 +1,204 @@
+.main_sect_animation_div {
+ background-image: url('../../Assets/Group 3655@2x.png');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+.station_img {
+ background-image: url('../../Assets/Group 4929@3x.png');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ object-fit: fill;
+ width: auto;
+ height: 12vh;
+ position: relative;
+}
+.tree_img {
+ margin-top: 40px;
+ width: 100%;
+}
+.road_img {
+ position: absolute;
+ bottom: -8px;
+ width: 100%;
+}
+.station_img {
+ overflow: hidden;
+}
+.train_img {
+ position: absolute;
+ bottom: 0px;
+ z-index: 11;
+ right: -120px;
+}
+.airplane {
+ position: absolute;
+ z-index: 0;
+ bottom: 150px;
+ left: 400px;
+}
+@media (prefers-reduced-motion: no-preference) {
+ .airplane {
+  animation: App-logo-spin infinite 5s linear;
+ }
+}
+
+@keyframes App-logo-spin {
+ from {
+  transform: translate(0px, 0px);
+ }
+ to {
+  transform: translate(550px, -300px);
+ }
+}
+.animation_content_div {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ width: 90%;
+ margin: 0px auto;
+ padding-top: 60px;
+ max-width: 1330px;
+ /* min-height: 68vh; */
+}
+.animation_para_div {
+ width: 550px;
+ /* border: 2px solid rgb(165, 159, 159); */
+ margin-left: 70px;
+}
+.animation_para_div h3 {
+ font-weight: bold;
+ color: #0a1433;
+ margin-top: 15px;
+}
+.animation_para_div p {
+ color: #2e58a6;
+ margin-top: 15px;
+}
+
+.ipurvey_points {
+ display: flex;
+ flex-wrap: wrap;
+ /* justify-content: space-between; */
+}
+.ip_point {
+ display: flex;
+ align-items: center;
+ /* justify-content: space-between; */
+}
+.ip_point:nth-of-type(2) {
+ margin-left: 20px;
+}
+.ip_point > p {
+ margin-left: 10px;
+ font-size: 0.85rem;
+}
+@media screen and (max-width: 1200px) {
+ .animation_para_div {
+  margin-left: 0px;
+ }
+ @keyframes App-logo-spin {
+  from {
+   transform: translate(0px, 0px);
+  }
+  to {
+   transform: translate(300px, -300px);
+  }
+ }
+}
+@media screen and (max-width: 1000px) {
+ .animation_para_div {
+  width: 400px;
+ }
+ .ip_point:nth-of-type(2) {
+  margin-left: 0px;
+ }
+ .ip_1_point {
+  margin-left: 15px !important;
+ }
+ @keyframes App-logo-spin {
+  from {
+   transform: translate(0px, 0px);
+  }
+  to {
+   transform: translate(200px, -250px);
+  }
+ }
+}
+@media screen and (max-width: 860px) {
+ .animation_content_div {
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .animation_para_div {
+  width: 550px;
+  margin-bottom: 20px;
+ }
+ .ip_point:nth-of-type(2) {
+  margin-left: 15px;
+ }
+ @keyframes App-logo-spin {
+  from {
+   transform: translate(0px, 0px);
+  }
+  to {
+   transform: translate(200px, -200px);
+  }
+ }
+ .airplane {
+  left: 50px;
+ }
+}
+@media screen and (max-width: 600px) {
+ .animatio_head_logo {
+  display: flex;
+  align-items: center;
+ }
+ .animatio_head_logo h3 {
+  margin-left: 10px;
+ }
+ .animatio_head_logo img {
+  width: 40px;
+  height: 40px;
+ }
+ .animation_para_div p {
+  font-size: 0.8rem;
+ }
+}
+@media screen and (max-width: 520px) {
+ .ipurvey_points {
+  justify-content: center;
+ }
+ @keyframes App-logo-spin {
+  from {
+   transform: translate(0px, 0px);
+  }
+  to {
+   transform: translate(120px, -150px);
+  }
+ }
+ .airplane {
+  width: 100px;
+ }
+}
+@media screen and (max-width: 385px) {
+ .ip_point > img {
+  width: 15px;
+ }
+ .animation_para_div {
+  width: 100%;
+ }
+ .animatio_head_logo h3 {
+  font-size: 1.2rem;
+ }
+ .ip_point:nth-of-type(2) {
+  margin-left: 0px;
+ }
+}
+@media screen and (max-width: 335px) {
+ .animatio_head_logo h3 {
+  font-size: 1rem;
+ }
+ .animation_para_div p {
+  font-size: 0.7rem;
+ }
+}

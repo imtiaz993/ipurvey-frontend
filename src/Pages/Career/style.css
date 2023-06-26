@@ -1,0 +1,168 @@
+/* be a part section  */
+
+.beA_part_md {
+ display: flex;
+ justify-content: space-between;
+ width: 80%;
+ max-width: 1100px;
+ margin: 50px auto;
+}
+
+.beA_part_left_md > h4 {
+ font-weight: bold;
+ margin-bottom: 25px;
+}
+.be_part_para {
+ white-space: pre-line;
+
+ font-size: 0.9rem;
+ color: #2e58a6;
+ margin-top: 10px;
+}
+
+.beA_part_right_form_md {
+ width: 350px;
+}
+.beA_part_right_form_md > h4 {
+ color: #2e58a6;
+ font-weight: bold;
+ font-size: 1.2rem;
+}
+.beA_part_form input,
+.beA_part_form button {
+ width: 100%;
+ outline: none;
+ border: none;
+ margin-top: 15px;
+ background-color: #f0f4fc;
+ padding: 9px;
+}
+.beA_part_form button {
+ background-color: #2e58a6;
+ color: white;
+ border-radius: 4px;
+}
+.hw_input {
+ display: flex;
+ justify-content: space-between;
+}
+.hw_input > input {
+ width: 48%;
+}
+.beA_part_form img {
+ width: 100%;
+ margin-top: 10px;
+}
+
+/* benifit section  */
+
+.benifit_md {
+ background-color: #f0f4fc;
+ padding: 50px 0px;
+ text-align: center;
+ margin: 20px 0px;
+ margin-bottom: 30px;
+}
+.benifit_md > h4 {
+ font-weight: bold;
+}
+
+.benifit_cards {
+ display: flex;
+ justify-content: space-between;
+ width: 64%;
+ margin: 30px auto;
+ max-width: 1240px;
+ align-items: flex-start;
+}
+.benifit_cards > div {
+ width: 210px;
+}
+.benifit_cards img {
+ width: 70px;
+ height: 70px;
+}
+.benifit_cards h6 {
+ font-weight: bold;
+ margin: 15px 0px;
+}
+.benifit_cards p {
+ font-size: 0.85rem;
+ color: #2e58a6;
+}
+
+/* our team section  */
+
+.ourTeam_sd {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 75%;
+ max-width: 1300px;
+ margin: 20px auto;
+ margin-bottom: 50px;
+}
+
+.ourTeam_left_content {
+ width: 540px;
+}
+.ourTeam_left_content > img {
+ width: 100%;
+ height: 60vh;
+}
+.ourTeam_right_md {
+ width: 420px;
+ text-align: center;
+}
+.ourTeam_right_md > h4 {
+ font-weight: bold;
+ margin-bottom: 30px;
+}
+
+@media (max-width: 1150px) {
+ .beA_part_md {
+  width: 92%;
+ }
+ .beA_part_right_form_md {
+  margin-left: 20px;
+ }
+ .benifit_cards {
+  width: 80%;
+ }
+ .ourTeam_sd {
+  width: 92%;
+ }
+ .ourTeam_left_content {
+  width: 60%;
+  margin-right: 15px;
+ }
+ .ourTeam_right_md {
+  width: 40%;
+ }
+}
+@media (max-width: 800px) {
+ .beA_part_md {
+  /* width: 92%; */
+  flex-wrap: wrap;
+ }
+ .beA_part_left_md {
+  width: 100%;
+  text-align: center;
+ }
+ .beA_part_right_form_md {
+  /* margin-left: 20px; */
+  width: 400px;
+  margin: 40px auto;
+  text-align: center;
+ }
+ .benifit_container,
+ .ourTeam_container {
+  display: none;
+ }
+}
+@media (max-width: 500px) {
+ .beA_part_form input,
+ .beA_part_form button {
+  font-size: 0.8rem;
+ }
+}

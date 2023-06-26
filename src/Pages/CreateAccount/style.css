@@ -1,0 +1,344 @@
+/* .user_acc_container {
+  background-color: #f8f9fc;
+} */
+.user_acc_md {
+ /* display: flex; */
+ align-items: center;
+ /* justify-content: space-between; */
+ /* max-width: 1330px; */
+ width: 100%;
+ margin: 0px auto;
+}
+/* .user_acc_s_md {
+  padding: 50px 0px;
+} */
+
+.user_acc_left_md {
+ width: 100%;
+ /* border: 2px solid red; */
+}
+.account_form_container {
+ width: 370px;
+ padding: 20px 25px;
+ background-color: rgba(255, 255, 255, 0.452);
+ box-shadow: 0px 3px 10px #d6d5d5;
+ border-radius: 4px;
+ position: relative;
+ z-index: 999;
+ /* margin-left: 50px; */
+}
+.form_head_md,
+.verify_email_form {
+ text-align: center;
+}
+.googleLogin_btn {
+ background: transparent;
+}
+.email_btn {
+ border: none !important;
+ padding-top: 10px !important;
+ padding-bottom: 10px !important;
+ color: black !important;
+}
+.the-mail-thingy {
+ font-weight: 500;
+}
+.base_googleLogin_btn {
+ background: transparent;
+ background-color: #ea4335 !important;
+ color: white !important;
+}
+.account_form_sd .sign_up_btns {
+ margin-top: 30px;
+}
+.mr-3-5 {
+ margin-right: 20px;
+}
+.account_form_sd input,
+.account_form_sd textarea,
+.account_form_sd select {
+ width: 100%;
+ outline: none !important;
+ border: none !important;
+ margin-top: 10px;
+ padding: 9px 9px;
+ background-color: #f0f4fc;
+ font-size: 0.9rem;
+}
+
+#speci input,
+#speci textarea,
+#speci select {
+ background-color: white;
+ color: black;
+}
+#speci input:disabled,
+#speci select:disabled,
+#speci textarea:disabled {
+ background-color: #f8fafe;
+ color: #6d6d73;
+}
+.account_form_sd .orLine_md > img {
+ width: 100%;
+ margin-top: 20px;
+ margin-bottom: 5px;
+}
+.account_form_sd button {
+ width: 100%;
+ margin-top: 10px;
+}
+.notMember_para {
+ display: flex;
+ justify-content: center;
+ margin-top: 10px;
+}
+.notMember_para > p {
+ margin-bottom: 0px;
+ font-size: 0.8rem;
+ font-weight: lighter;
+}
+.form_head_md > h4 {
+ font-weight: bold;
+}
+.user_acc_right_md {
+ width: 40%;
+}
+.user_acc_right_md > img {
+ object-fit: contain;
+}
+
+/* sign up form  */
+
+.acc_name_inp {
+ display: flex;
+ justify-content: space-between;
+}
+.acc_name_inp > input {
+ width: 48%;
+}
+
+.acc_postal_code > button {
+ width: 120px;
+ padding: 10.5px 2px;
+ height: auto;
+}
+.acc_hover_input {
+ font-size: 0.8rem !important;
+}
+.acc_hover_togle img {
+ top: 20px !important;
+ right: 8px !important;
+}
+
+/* Popover styling */
+
+.popover__content {
+ opacity: 0;
+ visibility: hidden;
+ position: absolute;
+ left: 20px;
+ transform: translate(0, 10px);
+ background-color: white;
+ padding: 10px;
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+ width: 330px;
+ top: 35px;
+}
+.popover__content:before {
+ position: absolute;
+ z-index: -1;
+ content: '';
+ left: calc(73% - 14px);
+ top: -10.3px;
+ border-style: solid;
+ box-shadow: 0 0px 5px 0 rgba(197, 196, 196, 0.26);
+ border-width: 0 10px 10px 10px;
+ border-color: transparent transparent #fffefe transparent;
+ transition-duration: 0.3s;
+ transition-property: transform;
+ transform: rotate(0deg);
+}
+.hoverI_togle_img:hover .popover__content {
+ z-index: 10;
+ opacity: 1;
+ visibility: visible;
+ transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+.popover__message {
+ margin-bottom: 0px;
+ font-size: 0.8rem;
+}
+
+/* forgot form  */
+
+.forgot_main_img {
+ text-align: center;
+}
+.forgot_main_img > img {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ width: 60%;
+ margin: 15px auto;
+}
+.form_blue_para {
+ font-size: 0.8rem;
+ color: #2e58a6;
+ margin-bottom: 5px;
+}
+.magic_link_Btn {
+ margin-top: 70px !important;
+}
+
+/* verify email form  */
+
+.vfy_email_header {
+ font-size: 1.4rem;
+ font-weight: 700;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.vfy_email_heading {
+ font-weight: 600;
+ font-size: 1.1rem;
+ margin-top: 15px !important;
+ margin-bottom: 20px;
+}
+.vfy_email_body {
+ font-size: 0.9rem;
+ color: #2e58a6;
+ margin-top: 15px !important;
+ margin-bottom: 15px !important;
+}
+
+.vfy_email_footer {
+ margin-top: 50px;
+ margin-bottom: 10px;
+}
+.address_footer {
+ margin-top: 20px;
+}
+.vfy_email_footer .text,
+.address_footer .text {
+ font-size: 0.9rem;
+ margin-bottom: 0px !important;
+}
+.vfy_email_footer .timer,
+.address_footer .manual_link {
+ background: transparent;
+ border: none;
+ outline: none;
+ font-weight: bold;
+ font-size: 0.9rem;
+ color: #2e58a6;
+ margin-bottom: 0px !important;
+}
+.address_footer > .manual_link:hover {
+ color: #212529;
+}
+.remember_me_footer {
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+ margin-top: 20px;
+ margin-bottom: 12px;
+}
+.checkbox_container {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.checkbox_container > input {
+ margin-top: 4px;
+}
+.remember_me_checkbox {
+ height: 25px !important;
+ width: 25px !important;
+ -webkit-appearance: none;
+ border: none !important;
+ background: #ffffff;
+ background-color: #ffffff !important;
+}
+.remember_me_checkbox:checked,
+.remember_me_checkbox:checked:active {
+ /* height: 25px !important; */
+ width: 25px !important;
+ border-radius: 0;
+ padding: 5px;
+ background: #b9c7e2;
+ background-color: #b9c7e2 !important;
+ /* box-shadow: 0px 3px 6px #00000029; */
+}
+.checkbox_text {
+ position: relative;
+ top: 10px;
+ /* left: 6px; */
+}
+.forget_pass {
+ position: relative;
+ top: 8px;
+}
+.checkbox_text > p,
+.forget_pass > .form_link {
+ font-size: 0.9rem;
+ color: #2e58a6;
+ margin-left: 10px;
+}
+.forget_pass > .form_link {
+ text-decoration: underline;
+}
+.forget_pass > .form_link:hover {
+ color: #212529;
+ text-decoration: none;
+}
+
+/* .address_btn > button {
+ 
+ 
+ 
+} */
+.address_btn,
+.signup_btn {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.signup_btn > button {
+ width: 40% !important;
+ background-color: #2e58a6;
+ color: white;
+ text-align: center;
+ padding: 10px 35px;
+ outline: none;
+ border: none;
+ margin-top: 105px;
+ border-radius: 3px;
+ font-size: 0.8rem;
+}
+.address_btn > button {
+ width: 40% !important;
+ background-color: #2e58a6;
+ color: white;
+ text-align: center;
+ padding: 10px 35px;
+ outline: none;
+ border: none;
+ margin-top: 20px;
+ border-radius: 3px;
+ font-size: 0.8rem;
+}
+
+.address_header {
+ margin-top: 15px !important;
+}
+@media (max-width: 400px) {
+ .acc_postal_code > button {
+  width: 110px;
+  font-size: 0.7rem;
+ }
+}
+@media (max-width: 320px) {
+ .popover__content {
+  width: 240px;
+ }
+}

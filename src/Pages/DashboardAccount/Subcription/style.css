@@ -1,0 +1,361 @@
+.subscript_manage_sd {
+ display: flex;
+ background-color: #f0f4fc;
+ min-height: calc(100vh - 90px);
+}
+.subcript_right_content_main .partner_header {
+ display: none;
+}
+.subcript_right_content_main .our_plan_hero {
+ width: 95%;
+ background-color: #dce5f1;
+}
+.subscript_mng_head {
+ margin-left: 30px;
+ margin-top: 50px;
+ margin-bottom: 20px;
+}
+.subscript_mng_head > h2 {
+ font-size: 1.1rem;
+ font-weight: bold;
+}
+
+/* subscription for mobile view  */
+
+.mobView_subs_card_container {
+ width: 98%;
+ margin: 10px auto;
+ display: none;
+}
+.mobView_subs_card {
+ border-radius: 5px;
+ background-color: white;
+ padding: 20px;
+ margin-top: 15px;
+}
+.mobView_subs_card:hover {
+ background-color: #2e58a6;
+}
+.mobView_subs_card:hover p,
+.mobView_subs_card:hover h5 {
+ color: white;
+}
+.mobView_subs_card:hover button {
+ background-color: white;
+ color: #2e58a6;
+}
+.subs_card_head {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+}
+.subs_card_head p {
+ font-size: 0.8rem;
+ color: #2e58a6;
+ margin-bottom: 0px;
+}
+.subsHead_left h5 {
+ font-weight: bold;
+}
+
+.subsHead_right h5 {
+ font-weight: bold;
+ color: #2e58a6;
+}
+.subs_card_features {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 15px;
+}
+.subsCard_feature {
+ display: flex;
+ align-items: flex-start;
+ width: 200px;
+}
+.subsCard_feature p {
+ font-size: 0.8rem;
+ margin-left: 10px;
+ margin-bottom: 0px;
+ color: #2e58a6;
+}
+.subsCard_feature img {
+ margin-top: 4px;
+}
+.subs_btn {
+ text-align: center;
+ margin-top: 20px;
+}
+.subs_btn button {
+ min-width: 170px;
+}
+
+/* start subscription page  */
+
+.mobileView_start_subs {
+ background-color: #f0f4fc;
+ padding: 20px;
+ display: none;
+}
+.mobView_startSubs_head {
+ background-color: white;
+ padding: 20px;
+ width: 100%;
+ margin: 20px auto;
+ text-align: center;
+ box-shadow: 0px 3px 6px #00000029;
+ border-radius: 5px;
+}
+.beforeStart_subs {
+ width: 100%;
+ margin: 0px auto;
+ /* margin-bottom: 30px; */
+ /* background-color: #F0F4FC; */
+}
+.mobView_startSubs_head p {
+ color: #2e58a6;
+ font-size: 0.8rem;
+}
+
+.mobView_startSubs_head h4 {
+ color: #2e58a6;
+ font-weight: bold;
+ font-size: 1.2rem;
+}
+.mobView_startSubs_head h5 {
+ font-weight: bold;
+ font-size: 1.1rem;
+}
+
+/* select method  */
+
+.selectMethod_container {
+ background-color: #f0f4fc;
+ padding: 20px;
+ display: none;
+}
+
+.orderDetail_container {
+ background-color: white;
+ padding: 20px;
+ width: 100%;
+ border-radius: 5px;
+ box-shadow: 0px 3px 6px #00000029;
+ text-align: center;
+}
+
+.subTotal_order,
+.service_fee {
+ display: flex;
+ justify-content: space-between;
+}
+.service_fee {
+ padding-left: 15px;
+}
+.service_fee p {
+ font-style: italic;
+ margin-bottom: 5px;
+}
+.subTotal_order p {
+ font-weight: bold;
+}
+.total_line {
+ border-top: 2px solid gainsboro;
+ padding-top: 10px;
+}
+.total_line p {
+ margin-bottom: 0px;
+}
+.payMethod_boxes {
+ display: flex;
+ justify-content: space-between;
+ width: 350px;
+ margin: 30px auto;
+}
+.payMethodImg {
+ padding: 40px 30px;
+ background-color: white;
+ border-radius: 5px;
+ position: relative;
+}
+.payMethodImg > .method_img {
+ height: 50px;
+ width: 80px;
+}
+.slct_tick {
+ position: absolute;
+ right: 10px;
+ top: 10px;
+}
+.subs_pay_methods {
+ text-align: center;
+ margin-top: 20px;
+}
+.paymethod_box p {
+ font-size: 0.9rem;
+ color: #2e58a6;
+ margin-top: 10px;
+}
+.selectedM {
+ border: 1px solid #2e58a6;
+}
+.subs_back {
+ margin: 30px 0px;
+ margin-top: 10px;
+}
+.selectMethod_container .subs_btn {
+ margin-top: 70px;
+}
+
+/* method detail  */
+
+.subs_methodDetail_container {
+ background-color: #f0f4fc;
+}
+.subs_methodDetial_md {
+ padding: 20px;
+}
+
+.subs_methodDetial_md .pstripe_head a {
+ display: none;
+}
+.subs_payment_methods {
+ margin-top: 40px;
+ padding: 5px;
+}
+.subs_payment_methods span {
+ font-size: 0.8rem;
+ text-align: center;
+}
+.subs_payment_methods .ps_input1 {
+ background-color: white;
+}
+.subs_payment_methods input {
+ outline: none;
+}
+#green {
+ background-color: #2ea656 !important;
+}
+.subs_payment_methods .payment .home_form_btn {
+ width: 200px !important;
+ margin: 30px auto !important;
+ margin-bottom: 0px !important;
+ display: flex;
+ justify-content: center;
+}
+
+.subs_payment_methods .hl_text {
+ /* text-align: center !important; */
+ display: flex;
+ justify-content: center;
+}
+.subs_payment_methods .home_form_btn {
+ margin: 30px auto !important;
+ margin-bottom: 0px !important;
+ display: flex;
+ justify-content: center;
+}
+.subs_payment_methods .home_form_btn a {
+ text-decoration: none;
+ color: white;
+}
+.subcript_right_content_main .backHeader_container,
+.subs_methodDetail_container {
+ display: none;
+}
+
+/* complete subscription  */
+
+.subs_complete_container {
+ width: 100%;
+ padding: 20px;
+ text-align: center;
+ background-color: #f0f4fc;
+}
+
+.subsComplete_sec {
+ margin-top: 30px;
+}
+.subsComplete_sec p:nth-child(2) {
+ font-weight: bold;
+ margin-top: 10px;
+}
+.subsComplete_sec p:nth-child(3) {
+ color: #2e58a6;
+ font-size: 0.8rem;
+}
+.returnDb_bt {
+ margin-top: 90px;
+}
+
+@media (max-width: 1150px) {
+ .subcript_right_content_main {
+  overflow-x: scroll;
+  padding: 0px 20px;
+  width: 100%;
+ }
+ .subcript_right_content_main .our_plan_hero {
+  width: 1100px;
+  margin: 2rem auto;
+  background-color: #dce5f1;
+ }
+}
+@media (max-width: 600px) {
+ .subcript_right_content_main .our_plan_hero,
+ .subscript_mng_head {
+  display: none;
+ }
+ .mobView_subs_card_container,
+ .mobileView_start_subs,
+ .selectMethod_container,
+ .subs_methodDetail_container {
+  display: block;
+ }
+ .subcript_right_content_main {
+  margin-top: 30px;
+ }
+ .subcript_right_content_main .backHeader_container {
+  display: block;
+ }
+}
+@media (max-width: 480px) {
+ .mobView_subs_card_container {
+  width: 100%;
+ }
+ .mobView_subs_card {
+  padding: 20px 10px;
+ }
+ .mobView_subs_card p {
+  font-size: 0.7rem;
+ }
+ .subsCard_feature {
+  width: 170px;
+ }
+ .payMethod_boxes {
+  width: 270px;
+ }
+ .payMethodImg {
+  padding: 35px 20px;
+ }
+}
+@media (max-width: 400px) {
+ .plan_list li span {
+  font-size: 0.8rem;
+ }
+ .plan_list {
+  padding: 20px;
+ }
+ .subsCard_feature p {
+  margin-left: 4px;
+ }
+ .subsCard_feature {
+  width: 140px;
+ }
+}
+@media (max-width: 340px) {
+ .payMethod_boxes {
+  width: 250px;
+ }
+ .payMethodImg {
+  padding: 25px 18px;
+ }
+}

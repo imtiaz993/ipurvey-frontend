@@ -1,0 +1,289 @@
+.terms_cond_main_div {
+  /* margin: 0px 170px; */
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px !important;
+  max-width: 1200px;
+  align-items: flex-start;
+}
+
+.terms_one_box_div {
+  margin-top: 10px;
+  border-radius: 7px;
+  padding: 10px 0px;
+  width: 580px;
+  max-height: 70vh;
+  overflow-y: scroll;
+  font-size: 0.9em;
+  color: #b0b7cb;
+}
+.terms_top_main {
+  width: 58%;
+  margin-left: 130px;
+  /* max-width: 1200px; */
+  /* margin: 0px auto; */
+  margin-top: 30px;
+}
+@media(min-width:1500px){
+  .terms_top_main {
+    width: 100%;
+    /* margin-left: 130px; */
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: 30px;
+  }
+}
+.terms_top_main > p {
+  color: #2e58a6;
+}
+.terms_box {
+  width: 100%;
+  height: 300px;
+  background-color: cadetblue;
+}
+.terms_ques_content_main{
+  width: 77%;
+}
+
+.term_note_para {
+  font-weight: 600;
+  padding: 8px 0px;
+  padding-bottom: 0px !important;
+  color: black;
+}
+
+.term_main {
+  padding: 0 10px;
+}
+
+.shade_box_l:hover {
+  background: #e9f8f7;
+  border-radius: 15px;
+}
+
+.shade_box_d:hover {
+  background: #0e2725;
+  border-radius: 15px;
+}
+.learm_more {
+  text-align: end;
+  margin-bottom: 15px;
+}
+.more_link {
+  text-decoration: none;
+  color: #2e58a6;
+}
+
+.terms_para_div > p {
+  padding: 8px 0px;
+  color: #2e58a6;
+}
+.term_copyright_div1 {
+  padding: 8px 0px;
+}
+.terms_one_box_div::-webkit-scrollbar {
+  width: 10px;
+}
+/* .terms_two_div {
+  margin-top: 20px;
+} */
+.terms_two_img_box {
+  margin-top: 10px;
+  width: 200px;
+}
+.terms_two_img_box > img {
+  width: 100%;
+}
+
+.trans_para {
+  color: #2e58a6;
+  font-weight: 300 !important;
+  margin-top: 10px;
+}
+
+/* terms detail component  */
+
+.termsDetail_box {
+  display: flex;
+}
+.terms_quesDetail_box {
+  width: 400px;
+  background-color: #f3f6fcbd;
+  padding: 20px;
+  margin-left: 5px;
+  max-height: 470px;
+  overflow-y: scroll;
+}
+
+.terms_quesDetail_box::-webkit-scrollbar{
+  width: 5px;
+}
+.terms_quesDetail_box p{
+  color: #2e58a6;
+  font-size: .9rem;
+  margin-bottom: 0px;
+}
+.terms_quesDetail_box h6{
+  font-weight: bold;
+}
+.termsQues_list {
+  background-color: #f0f4fc;
+  padding: 20px 10px;
+  width: 340px;
+}
+
+.tersmQues_ul {
+  margin: 0px;
+  margin-top: 10px;
+}
+.tersmQues_ul p {
+  margin-bottom: 0px;
+  color: black !important;
+}
+.termQ {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #dfe5f0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.termQ:hover{
+  cursor: pointer;
+}
+.active_term{
+  background-color: #2e58a6;
+}
+.active_term p{
+  color: white !important;
+}
+.termQ img {
+  width: 15px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+
+.mobileView_termsQues_detail {
+  padding: 10px;
+  padding-top: 30px;
+  display: none;
+}
+.mobileView_terms_top_img{
+  display: none;
+}
+
+.mobileView_termsQues_detail h6 {
+  font-weight: bold;
+}
+.mobileView_termsQues_detail p {
+  color: #2e58a6 !important;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 1125px) {
+  .terms_top_main{
+    margin-left: 30px;
+    width: 68%;
+  }
+  .terms_cond_main_div{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .terms_quesDetail_box{
+    display: none;
+  }
+  .termsQues_list{
+    width: 90%;
+  }
+  .mobileView_termsQues_detail{
+    display: block;
+  }
+  /* .terms_two_box_para_div {
+    width: 700px;
+  } */
+}
+@media screen and (max-width: 750px) {
+  .terms_and_cond_main_div {
+    margin: 50px 20px;
+    flex-wrap: wrap;
+  }
+  .terms_one_box_div {
+    margin: 20px auto;
+    width: 100%;
+  }
+  .terms_two_box_para_div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .select_lang_div{
+    display: none;
+  }
+  .termsDetail_box{
+    width: 100%;
+  }
+  .terms_ques_content_main,.termsQues_list{
+    width: 100%;
+  }
+  .terms_top_main{
+    width: 95%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .mobileView_terms_top_img{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 40px auto;
+  }
+  .mobileView_terms_top_img > img{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 450px) {
+  .terms_one_box_div {
+    margin: 20px auto;
+    width: 100%;
+  }
+  .terms_top_main > p,.tersmQues_ul p{
+    font-size: .8rem;
+  }
+  .term_note_para {
+    padding: 10px 5px;
+  }
+  .terms_one_box_div {
+    padding: 8px;
+  }
+  .terms_two_box_para_div,
+  .term_copyright_div1 {
+    padding: 10px;
+  }
+  .terms_para_div > p {
+    padding: 10px;
+  }
+  .terms_sub_head_div h5 {
+    font-size: 1.1rem;
+  }
+  .terms_two_box_para_div,
+  .term_copyright_div1,
+  .terms_para_div {
+    font-size: 0.8rem;
+  }
+  .term_note_para p {
+    margin-bottom: 5px;
+  }
+  .term_note_para {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .terms_and_cond_main_div {
+    margin: 50px 10px;
+    flex-wrap: wrap;
+  }
+}

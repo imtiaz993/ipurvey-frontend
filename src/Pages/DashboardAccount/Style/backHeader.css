@@ -1,0 +1,29 @@
+.backHeader_container{
+    display: none;
+}
+.back_header_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2E58A6;
+}
+.back_header_link>p{
+    margin-bottom: 0px;
+    margin-left: 15px;
+    /* text-overflow: ; */
+    text-transform: uppercase;
+}
+.back_header_link>img{
+    transform: rotate(180deg);
+}
+.bk_btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+@media (max-width:800px){
+    .backHeader_container{
+        display: block;
+    }
+}

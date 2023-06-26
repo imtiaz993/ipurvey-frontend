@@ -1,0 +1,348 @@
+.db_md_main {
+ display: flex;
+ background-color: #f9fafc;
+ min-height: 100vh;
+ /* min-height: calc(100vh - 90px) ; */
+}
+.trashcan {
+ width: 18px;
+ color: #2e58a6;
+}
+.trashcan_light {
+ width: 18px;
+ color: #7d86a2;
+}
+.db_table_md {
+ position: relative;
+}
+/* Popover styling */
+.hoverI_togle_img2 {
+ position: absolute;
+ width: 500px;
+ background-color: white;
+ z-index: 99999;
+ padding: 10px;
+ right: -300px;
+ top: 90px;
+}
+.hoverI_togle_img2 p {
+ font-size: 0.8rem;
+}
+.hoverI_togle_img2 h5 {
+ font-size: 1rem;
+ margin-bottom: 2px;
+ margin-top: 10px;
+}
+.popover__content2:before {
+ position: absolute;
+ z-index: -1;
+ content: '';
+ left: calc(30% - 14px);
+ top: -10.3px;
+ border-style: solid;
+ box-shadow: 0 0px 15px 0 rgba(197, 196, 196, 0.26);
+ /* background-color: black; */
+ border-width: 0 10px 10px 10px;
+ border-color: transparent transparent #fffefe transparent;
+ transition-duration: 0.3s;
+ transition-property: transform;
+ transform: rotate(0deg);
+}
+
+/* end  */
+
+.db_right_content_md {
+ padding-top: 20px;
+ padding-left: 30px;
+ width: 85%;
+ padding-right: 15px;
+ margin-bottom: 30px;
+}
+.db_head_btn {
+ text-align: end;
+}
+.db_right_sd {
+ display: flex;
+}
+.db_chart_table_section {
+ width: 58%;
+}
+/* table comp  */
+
+.db_table_md {
+ box-shadow: 0px 3px 6px #757575;
+ padding: 20px;
+ margin-top: 20px;
+ background-color: white;
+ border-radius: 8px;
+ /* width: 600px; */
+ width: 100%;
+}
+.db_table_head {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.db_table_head > h4 {
+ font-size: 1.3rem;
+ margin-bottom: 0px;
+ color: #2e58a6;
+ margin-left: 5px;
+}
+.db_table_head .link {
+ margin-right: 0px;
+}
+
+/* status section  */
+
+.db_timeline_section {
+ width: 40%;
+ margin-left: 20px;
+}
+
+.tb_status_container {
+ box-shadow: 0px 3px 6px #757575;
+ padding: 20px;
+ margin-top: 20px;
+ background-color: white;
+ border-radius: 8px;
+ /* width: 600px; */
+ width: 100%;
+ /* padding-bottom: 0px; */
+}
+.tb_status_sd > h5 {
+ font-size: 1.1rem;
+ color: #2e58a6;
+}
+.Booking_detail_md > h6 {
+ background-color: #2e58a6;
+ color: white;
+ text-align: center;
+ width: 100%;
+ padding: 10px;
+ border-top-left-radius: 7px;
+ border-top-right-radius: 7px;
+ margin-bottom: 0px;
+}
+.Booking_detail_ul {
+ list-style: none;
+ padding: 0px;
+ margin: 0px;
+ background-color: #f0f4fc;
+}
+.Booking_detail_ul p {
+ margin-bottom: 0px;
+}
+.Booking_detail_ul > li {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 15px;
+ font-size: 0.9rem;
+ color: #2e58a6;
+}
+ul {
+ margin-bottom: 0px !important;
+}
+.MuiTimelineItem-missingOppositeContent:before {
+ flex: none !important;
+ padding: 0px !important;
+}
+.MuiTimeline-root {
+ padding: 6px 0px !important;
+}
+.MuiTimelineDot-root {
+ box-shadow: none !important;
+}
+.MuiTimelineDot-root > img {
+ width: 25px;
+ height: 25px;
+}
+.step1Head {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 15px;
+}
+.step1Head > h6 {
+ margin-bottom: 0px;
+ font-size: 0.9rem;
+ font-weight: bold;
+}
+.step1Head > p {
+ margin-bottom: 0px;
+ opacity: 0.5;
+ font-size: 0.7rem;
+}
+.timeline_user_info > p {
+ font-size: 0.8rem;
+ margin-bottom: 0px;
+ margin-top: 10px;
+ opacity: 0.5;
+}
+
+/* mobile view dashboard sidebar  */
+
+.mob_view_dashboard_sidebar_container {
+ display: none;
+}
+.mob_view_dashboard_sidebar_container p {
+ margin: 0px;
+ font-size: 0.8rem;
+ margin-left: 10px;
+}
+.mob_view_dashboard_sidebar_container .sb_mob_link {
+ justify-content: flex-start;
+}
+.mob_view_dashboard_sidebar_container .sb_head {
+ margin-top: 10px;
+ font-size: 1.1rem;
+}
+.mob_view_dashboard_sidebar_container .dropdown-menu.show {
+ width: 300px;
+ max-height: 110vh !important;
+ /* height: 110vh !important; */
+ overflow-y: auto !important;
+ background-color: #f0f4fc;
+}
+.db_sidebard_togle {
+ background-color: transparent;
+ border: none;
+}
+
+/* mob view boooking card  */
+
+.mobViewBook_card_container {
+ display: none;
+ max-height: 500px;
+ overflow-y: auto;
+}
+.mobViewBook_card_container::-webkit-scrollbar {
+ width: 5px;
+}
+.mobVIewbook_card {
+ background-color: #f0f4fc;
+ padding: 15px;
+ margin-top: 15px;
+}
+.mobVIewbook_card p,
+.mobVIewbook_card h6 {
+ margin-bottom: 5px;
+}
+.mobVIewbook_card p {
+ color: #2e58a6;
+ font-size: 0.8rem;
+}
+.mobVIewbook_card h6 {
+ font-size: 1rem;
+}
+.book_card_time {
+ display: flex;
+ justify-content: space-between;
+ width: 70%;
+ margin: 0px auto;
+ text-align: center;
+}
+.bookCardBody_ {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+ text-align: center;
+}
+
+.grnClr {
+ /* color: ; */
+ background-color: #70e621 !important;
+}
+
+@media (max-width: 1200px) {
+ .db_left_content {
+  display: none;
+ }
+ .mob_view_dashboard_sidebar_container {
+  display: block;
+ }
+ .db_right_content_md {
+  width: 95%;
+ }
+}
+
+@media (max-width: 950px) {
+ .db_right_sd {
+  flex-wrap: wrap;
+ }
+ .hoverI_togle_img2 {
+  /* left: 0px; */
+  right: 0px;
+ }
+ .db_chart_table_section {
+  width: 90%;
+  margin: 10px auto;
+ }
+ .db_timeline_section {
+  width: 60%;
+  margin: 10px auto;
+ }
+ .popover__content2:before {
+  left: calc(88% - 14px);
+ }
+}
+@media (max-width: 700px) {
+ .db_timeline_section {
+  width: 70%;
+  margin: 10px auto;
+ }
+}
+@media (max-width: 600px) {
+ .db_timeline_section {
+  width: 100%;
+ }
+ .db_chart_table_section {
+  width: 100%;
+ }
+ .db_table_md .table_container {
+  display: none;
+ }
+ .db_table_head .link {
+  display: none;
+ }
+ .db_table_head > h4 {
+  font-size: 1rem;
+ }
+ .mobViewBook_card_container {
+  display: block;
+ }
+}
+@media (max-width: 400px) {
+ .mobVIewbook_card p {
+  font-size: 0.7rem;
+ }
+ .step1Head > p {
+  font-size: 0.6rem;
+ }
+ .cus_bar_chart {
+  height: 280px !important;
+ }
+ .db_right_content_md {
+  width: 100%;
+  padding: 20px 15px;
+ }
+
+ .mobVIewbook_card h6 {
+  font-size: 0.8rem;
+ }
+ .db_table_md {
+  padding: 15px 8px;
+ }
+ .mobVIewbook_card {
+  padding: 15px 10px;
+ }
+ .step1Head > h6 {
+  font-size: 0.8rem;
+ }
+}
+@media (max-width: 350px) {
+ .db_table_head > h4 {
+  font-size: 0.9rem;
+ }
+}

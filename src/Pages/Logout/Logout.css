@@ -1,0 +1,19 @@
+.logout {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 90vh;
+}
+.logout > img {
+ margin-bottom: 30px;
+}
+.logout > h1 {
+ font-weight: bold;
+ font-size: 28px;
+}
+.logout > p {
+ margin-top: 10px;
+ width: 524px;
+ text-align: center;
+}

@@ -1,0 +1,239 @@
+.accInfo_container {
+ background-color: #f0f4fc;
+ /* min-height: 100vh; */
+ min-height: calc(100vh - 90px);
+}
+.accInfo_sd {
+ display: flex;
+}
+.accInfoHeadMain {
+ font-weight: 600;
+ font-size: 1.05rem !important;
+}
+
+.accInfo_rigth_md {
+ margin-top: 20px;
+ margin-left: 20px;
+}
+.acc_info_sd {
+ display: flex;
+ margin-bottom: 40px;
+}
+
+.pD_container {
+ margin-left: 50px;
+}
+/* forms section  */
+
+.AInfo_conatainer {
+ width: 450px;
+}
+
+@media (min-width: 1200px) {
+ ._accountInfo_form_container,
+ .pD_container {
+  width: 40%;
+ }
+ .AInfo_conatainer {
+  width: 100%;
+ }
+}
+
+.aInfo_head {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.aInfo_head > h5,
+.payment_head > h5 {
+ font-size: 0.9rem;
+ margin-bottom: 0px;
+}
+.aInfo_head > button {
+ border: none;
+ outline: none;
+ background-color: white;
+ padding: 8px 30px;
+ border-radius: 6px;
+ font-size: 0.9rem;
+}
+.mob_view_infoEdit_btn {
+ border: none;
+ outline: none;
+ background-color: white;
+ padding: 8px 30px;
+ border-radius: 6px;
+ font-size: 0.9rem;
+ display: none;
+}
+.aInfo_head > button > img {
+ margin-right: 10px;
+}
+.profile_img {
+ margin-bottom: 20px;
+ /* margin-top: 20px; */
+}
+.profile_img > img {
+ width: 150px;
+ /* height: 180px; */
+}
+.acc_info_form input,
+.pD_inp select,
+.pD_inp input {
+ width: 100%;
+ border: none;
+ outline: none;
+ padding: 10px;
+ /* margin-top: 10px; */
+ font-weight: normal !important;
+}
+.acc_sv_btn {
+ text-align: center;
+ margin-top: 40px;
+}
+.acc_sv_btn > button {
+ width: 150px;
+}
+.hw_inp {
+ display: flex;
+ justify-content: space-between;
+}
+.hw_inp > input {
+ width: 48%;
+}
+
+.pD_inp {
+ margin-top: 10px;
+}
+
+/* account setting  */
+
+.acc_seting_md {
+ margin-top: 30px;
+}
+.acc_seting_md > h5 {
+ font-size: 0.9rem;
+}
+.acc_stng_ul {
+ list-style: none;
+ padding: 0px;
+ margin: 0px;
+ margin-top: 20px;
+}
+.acc_stng_ul > li {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ margin-top: 15px;
+}
+.acc_stng_ul p {
+ margin-bottom: 0px;
+ font-size: 0.9rem;
+ opacity: 0.5;
+}
+.acc_stng_ul h6 {
+ color: #2e58a6;
+ font-size: 0.9rem;
+ font-weight: bold;
+}
+.MuiSwitch-colorPrimary.Mui-checked {
+ color: #25d632 !important;
+}
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+ background-color: #25d632 !important;
+ opacity: 0.3 !important;
+}
+
+.mobileView_switch_content {
+ display: none;
+}
+.acc_back_link {
+ margin-left: 30px;
+ display: none;
+}
+
+@media (max-width: 990px) {
+ .acc_info_sd {
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+}
+@media (max-width: 970px) {
+ .pD_container {
+  margin-left: 30px;
+  margin-top: 0px;
+ }
+}
+@media (max-width: 910px) {
+ .pD_container {
+  margin-left: 0px;
+  margin-top: 20px;
+ }
+}
+@media (max-width: 600px) {
+ .aInfo_head {
+  display: none;
+ }
+ .mob_view_infoEdit_btn {
+  display: block;
+ }
+ .acc_back_link {
+  /* margin-left: 30px; */
+  display: block;
+ }
+ .profile_img {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+ }
+ .payment_head {
+  text-align: center;
+  margin-top: 15px;
+ }
+ .payment_head > h5 {
+  font-weight: 700;
+ }
+ .acc_stng_ul {
+  display: none;
+ }
+ .mobileView_switch_content {
+  display: block;
+  margin-top: 15px;
+ }
+ .acc_seting_md {
+  text-align: center;
+ }
+ .acc_seting_md > h5 {
+  font-weight: bold;
+ }
+ .mobileView_switch_content h6 {
+  margin-bottom: 5px;
+  color: #2e58a6;
+  font-size: 1rem;
+ }
+}
+@media (max-width: 500px) {
+ .accInfo_rigth_md {
+  margin-left: 0px;
+  /* margin: 20px ; */
+  padding: 0px 15px;
+ }
+ .AInfo_conatainer {
+  width: 100%;
+ }
+ .AInfo_conatainer input {
+  font-size: 0.85rem;
+ }
+ .acc_back_link {
+  margin-left: 5px;
+ }
+}
+@media (max-width: 350px) {
+ .profile_img > img {
+  width: 100px;
+ }
+ .mob_view_infoEdit_btn {
+  padding: 8px 20px;
+ }
+}
